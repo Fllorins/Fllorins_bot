@@ -26,5 +26,5 @@ module.exports= {
     reply_markup: JSON.stringify({
       inline_keyboard: [[{ text: 'Играть еще раз!', callback_data: '/again' }]],
     }),
-  };
+  }
 }
